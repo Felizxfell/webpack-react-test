@@ -54,10 +54,6 @@ module.exports = {
         new CleanWebpackPlugin()
     ],
     optimization: {
-        minimize: true,
-        minizer: [
-            new CssMinimizerPlugin(),
-            new TerserPlugin()
-        ]
+        minimize: true,        
     }
 }
